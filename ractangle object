@@ -1,0 +1,13 @@
+var recob={
+    length:200,
+    width:100,
+    area:function(){
+        console.log(recob.length*recob.width)
+    },
+    perimeter: function(){
+        console.log(2*(recob.length+recob.width))
+    },
+}
+console.log(recob)
+recob.area()
+recob.perimeter()
